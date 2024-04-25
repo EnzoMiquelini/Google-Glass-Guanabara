@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'FontLogo';
+    src: url(../_fonts/BubblegumSans-Regular.ttf);
+}
+body{
+    background-color: white;
+    color: rgba(0,0,0,1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#interface{
+    width: 900px;
+    margin: auto;
+    margin-top: -20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+a{
+    color: #606060;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#cabecalho img#icon{
+    position: absolute;
+    left: 1240px;
+    top:70px;
+}
+#home{
+    width: 300px;
+}
+#cabecalho{
+    border-bottom: 1px solid #606060;
+    height: 150px;
+    background-image: url("../_img/google-glass-logo-png-transparent.png") no-repeat 0px 100px;
+}
+#cabecalho h1{
+    font-family: FontLogo, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+.fotoLegenda{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+.fotoLegenda img{
+    width: 100%;
+    height: 100%;
+}
+.fotoLegenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+.fotoLegenda:hover figcaption{
+    opacity: 1;
+}
+#menu{
+    display: block;
+}
+#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 770px;
+}
+#menu li{
+    display: inline-block;
+    background-color: #dddddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+#menu li:hover{
+    background-color: #606060;
+}
+#menu h1{
+    display: none;
+}
+#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: #ffffff;
+}
+#corpo{
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+#noticia-principal h2{
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddddd;
+    padding: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px;
+}
+#cabecalho-artigo h1{
+    font-family: 'FontLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+}
+#cabecalho-artigo h3{
+    font-size: 8pt;
+    color: #606060;
+}
+.direita{
+    text-align: right;
+}
+#spec{
+    border-spacing: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;   
+}
+#spec td{
+    border: 1px solid #606060;
+    text-align: center;
+    background-color: #dddddddd;
+    padding: 10px;
+}
+#spec th{
+    border: 1px solid #606060;
+    text-align: right;
+    background-color: #606060;
+    color: #ffffff;
+    vertical-align: top;
+    padding: 10px;;
+}
+#spec caption{
+    color: #8888;
+    font-size: 13pt;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+#spec caption span{
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #dddddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+#lateral h1{
+    font-family: 'FontLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin: 0px;
+}
+#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+}
+#rodape{
+    clear: both;
+    border-top: 1px solid black;
+}
+#rodape p{
+    text-align: center;
+}
